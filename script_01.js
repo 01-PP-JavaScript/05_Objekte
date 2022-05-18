@@ -36,8 +36,17 @@ const txt =     "Ich bin " + person.firstName + " " +
 
 
 /***** Objekte 2 - Hierarchie *******/
+const baikal = {
 
-
+                  value: "10m",
+                  deep: {
+                              deeper:{
+                                      deepest: "Das Licht - auf 1642m!"
+                                      }
+                        }
+                };
+output(baikal.value);
+output(baikal.deep.deeper.deepest);
 
 
 
